@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(assets/img/background.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    text-overflow: scale;
+    
+
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+
+
+footer{
+    margin-bottom: 5em;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    
+}
+
+header {
+    background: url(assets/img/companylogoBG.jpg);
+    background-position: 100% 100%;
+    
+    
+    align-content: center;
+    background-size: cover;
+    
+    color: aliceblue;
+    
+    font-size: 3em;
+}
+
+h2 {
+    background-color: #2699fb;
+    color: azure;
+    
+    font-size: 3em;
+    text-overflow: scale;
+}
+
+.nav {
+    background-color: rgb(143, 143, 137);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(43, 40, 40);}
+aside {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    aside{
+        display: block;
+    }
+
+    .center-cropped{   
+        object-fit: cover;
+        display: block;
+        width: 49%;
+        padding: 1em;
+        height: 250px;
+        float: left;
+        padding: 0.5%;
+        background-color: aliceblue;
+        overflow: hidden;
+    }            
+
+    body{
+        width: 100%;
+    min-width: 360px;
+    }
+}

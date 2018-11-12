@@ -1,95 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <title>CSS Grid</title>
-    <style>
-        body {
-            background: url(assets/img/background.jpeg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            padding-left: 25%;
-            padding-right: 25%;
-            text-align: center;
-            margin: 0%;
-
-        }
-
-        @media only screen and (max-width:620px) {
-
-            /* For mobile phones: */
-            body{
-                padding: 0;
-            }
-            
-        }
-
-        img {
-            display: block;
-        }
-
-        footer {
-            margin-bottom: 5em;
-            display: block;
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 0.5em;
-
-        }
-
-        h1 {
-            background: url(assets/img/companylogoBG.jpg);
-            background-position: 100% 100%;
-            margin: 0%;
-            height: auto;
-            align-content: center;
-            background-size: cover;
-            line-height: auto;
-            color: aliceblue;
-            margin: 0%;
-            font-size: 5em;
-        }
-
-        h2 {
-            background-color: #2699fb;
-            color: azure;
-            margin: 0%;
-            font-size: 2em;
-        }
-
-        .nav {
-            background-color: rgb(143, 143, 137);
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        .nav li {
-            display: inline;
-        }
-
-        .nav a {
-            display: inline-block;
-            padding: 1em;
-            color: white;
-            text-align: center;
-            padding: 1em 1em;
-            text-decoration: none;
-
-        }
-
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
-            background-color: rgb(43, 40, 40);
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <h1>Company name</h1>
+    <header>Company name</header>
     <nav>
         <ul class="nav">
             <li><a href="product.html">PRODUCTS</a></li>
@@ -97,15 +16,16 @@
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
-    <h2>WE ARE <BR>ENTERTAINMENT</h2>
-    <a href="index.html"><img src="assets/img/product3.jpg" style="max-width:100%;height:auto;" title="White flower"
-            alt="Flower"></a>
+    <span><h2>WE ARE</h2> </span>
+    <span><h2>ETERTAINMENT</h2></span>     
+    <a href="index.html"><img class="img-body, center-cropped" class="center-cropped" src="assets/img/product3.jpg" title="White flower" alt="Flower"></a>
+    <aside><a href="index.html"><img class="center-cropped" src="assets/img/product8.jpg" title="White flower" alt="Flower"></a></aside>
     <h2>MOBILE<BR>GAMES</h2>
-    <a href="index.html"><img src="assets/img/product8.jpg" width="100%" title="White flower" alt="Flower"></a>
+    <a href="index.html"><img class="img-body" src="assets/img/product8.jpg" title="White flower" alt="Flower"></a>
     <h2>BOARD<BR>GAMES</h2>
-    <a href="index.html"><img src="assets/img/product6.jpg" width="100%" title="White flower" alt="Flower"></a>
+    <a href="index.html"><img class="img-body" src="assets/img/product6.jpg" title="White flower" alt="Flower"></a>
     <h2>CONSOLE<BR>GAMES</h2>
-    <a href="index.html"><img src="assets/img/product9.jpg" width="100%" title="White flower" alt="Flower"></a>
+    <a href="index.html"><img class="img-body" src="assets/img/product9.jpg" title="White flower" alt="Flower"></a>
     <footer>
         <p>©2018 Sjors Grooff Inholland</p>
     </footer>
