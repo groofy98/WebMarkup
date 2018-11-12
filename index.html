@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <title>CSS Grid</title>
@@ -11,32 +12,41 @@
             padding-left: 25%;
             padding-right: 25%;
             text-align: center;
-            margin  : 0%;
+            margin: 0%;
 
         }
 
-        img{
+        @media only screen and (max-width:620px) {
+
+            /* For mobile phones: */
+            body{
+                padding: 0;
+            }
+            
+        }
+
+        img {
             display: block;
         }
 
-        footer{
+        footer {
             margin-bottom: 5em;
             display: block;
             background-color: black;
             color: white;
             text-align: center;
             padding: 0.5em;
-            
+
         }
 
         h1 {
             background: url(assets/img/companylogoBG.jpg);
             background-position: 100% 100%;
             margin: 0%;
-            height: 200px;
+            height: auto;
             align-content: center;
             background-size: cover;
-            line-height: 200px;
+            line-height: auto;
             color: aliceblue;
             margin: 0%;
             font-size: 5em;
@@ -46,7 +56,7 @@
             background-color: #2699fb;
             color: azure;
             margin: 0%;
-            font-size: 3em;
+            font-size: 2em;
         }
 
         .nav {
@@ -63,10 +73,10 @@
 
         .nav a {
             display: inline-block;
-            padding: 10px;
+            padding: 1em;
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 1em 1em;
             text-decoration: none;
 
         }
@@ -88,7 +98,8 @@
         </ul>
     </nav>
     <h2>WE ARE <BR>ENTERTAINMENT</h2>
-    <a href="index.html"><img src="assets/img/product3.jpg" width="100%" title="White flower" alt="Flower"></a>
+    <a href="index.html"><img src="assets/img/product3.jpg" style="max-width:100%;height:auto;" title="White flower"
+            alt="Flower"></a>
     <h2>MOBILE<BR>GAMES</h2>
     <a href="index.html"><img src="assets/img/product8.jpg" width="100%" title="White flower" alt="Flower"></a>
     <h2>BOARD<BR>GAMES</h2>
