@@ -50,7 +50,7 @@ h2 {
     background-color: rgb(143, 143, 137);
     list-style: none;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     text-overflow: scale;
 }
 
@@ -79,7 +79,11 @@ aside {
 @media only screen and (max-width: 360px) {
 body{
     background: none;
+    min-width: none;
+    width: 100%
 }
+
+
 
     .secondary-header {
         display: none;
@@ -96,12 +100,14 @@ body{
     img {
         height: 250px;
         padding: 0.2em;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 600px) {
     body{
         background: none;
+        min-width: none;
     }
 
     aside {
