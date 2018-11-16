@@ -7,13 +7,9 @@
 .form1 > fieldset {
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: white;
+    background-color: #ffffff;
     text-align: left;    
     padding: 0.5em;   
-}
-
-.form1 > input {
-    
 }
 
 .more-info{
@@ -62,7 +58,7 @@ textarea{
     height: 50px;
     background-color: #2699fb;
     border: none;
-    color: aliceblue;
+    color: #ffffff;
     font-size: 1em;
 }
 

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /inholland
+
+Sitemap: https://webmarkup.azurewebsites.net/sitemap.xml
