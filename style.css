@@ -32,11 +32,13 @@ header {
     padding: 40px
 }
 .nav {
-    background-color: rgb(143, 143, 137);
+    background-color: #707070;
     list-style: none;
     text-align: center;
     font-size: 2em;
-    text-overflow: scale;
+    border: solid #fff;
+    border-width: 1px 1px;
+    
 }
 
 .nav li {
