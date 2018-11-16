@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    outline: none;
 }
 
 body {
@@ -60,8 +63,7 @@ footer {
     background-color: #2699fb;
     color: azure;
     font-size: 3em;
-    font-family: Arial, sans-serif;
-    font-weight: normal;
+    
     padding: 30px
 }
 
