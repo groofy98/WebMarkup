@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "BerlinSans";
+	src: url("/assets/fonts/berlinsansfb.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +23,10 @@ body {
 header {
     background: url(assets/img/companylogoBG.jpg);
     background-position: 100% 100%;
+    font-family: BerlinSans;
     align-content: center;
     background-size: cover;
-    color: aliceblue;
+    color: #ffffff;
     text-overflow: scale;
     font-size: 5em;
     padding: 40px
@@ -40,7 +46,7 @@ header {
 .nav a {
     display: inline-block;
     padding: 0.5em;
-    color: white;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
@@ -53,15 +59,15 @@ li a:hover {
 footer {
     margin-bottom: 5em;
     display: block;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 0.5em;
 }
 
 .heading {
     background-color: #2699fb;
-    color: azure;
+    color: #ffffff;
     font-size: 3em;
     
     padding: 30px

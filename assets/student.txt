@@ -1,3 +1,0 @@
-student name : your name 
-student number : your student number
-student class : your class
