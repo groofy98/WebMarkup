@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(assets/img/background.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 960px;
+    min-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+header {
+    background: url(assets/img/companylogoBG.jpg);
+    background-position: 100% 100%;
+    align-content: center;
+    background-size: cover;
+    color: aliceblue;
+    text-overflow: scale;
+    font-size: 5em;
+    padding: 40px
+}
+.nav {
+    background-color: rgb(143, 143, 137);
+    list-style: none;
+    text-align: center;
+    font-size: 2em;
+    text-overflow: scale;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(43, 40, 40);
+}
+footer {
+    margin-bottom: 5em;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.heading {
+    background-color: #2699fb;
+    color: azure;
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    padding: 30px
+}
+
+@media only screen and (max-width: 360px) {
+    header {
+        font-size: 2em;
+        padding: 10px
+    }
+    body {
+        background: none;
+        min-width: 60px;
+        width: 100%
+    }
+    .nav {
+        font-size: 0.80em;
+    }
+    .heading {
+        font-size: 1em;
+        height: auto;
+         
+        padding: 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 960px) {
+    body {
+        background: none;
+        min-width: none;
+        width: 100%;
+        min-width: 360px;
+    }
+    aside {
+        display: block;
+    }
+    .nav {
+        font-size: 1.22em;
+    }
+    .heading {
+        font-size: 2em;
+        padding: 10px;
+    }
+    header {
+        font-size: 5em;
+        padding: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 361px) and (max-width: 600px) {
+    .heading{
+        font-size: 1.5em;
+    }
+
+    header{
+        font-size: 3em;
+    }
+}

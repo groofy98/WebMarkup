@@ -12,17 +12,7 @@
     padding: 1em;
 }
 
-body {
-    background: url(assets/img/background.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 50%;
-    min-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    text-overflow: scale
 
-}
 
 .grid-container > img {
     display: block;
@@ -42,25 +32,7 @@ footer {
 
 }
 
-h1 {
-    background: url(assets/img/companylogoBG.jpg);
-    background-position: 100% 100%;
-    margin: 0%;
-    height: 200px;
-    align-content: center;
-    background-size: cover;
-    line-height: 200px;
-    color: aliceblue;
-    margin: 0%;
-    font-size: 5em;
-}
 
-h2 {
-    background-color: #2699fb;
-    color: azure;
-    margin: 0%;
-    font-size: 3em;
-}
 
 .nav {
     background-color: rgb(143, 143, 137);
