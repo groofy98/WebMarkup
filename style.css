@@ -23,9 +23,6 @@ body > video {
 
 
 body {
-    background: url(assets/img/background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
     width: 960px;
     min-width: 960px;
     text-align: center;
@@ -106,6 +103,10 @@ footer {
          
         
     }
+
+    video{
+        display: none;
+    }
     
 }
 
@@ -128,6 +129,9 @@ footer {
         font-size: 5em;
         padding: 20px;
     }
+    video{
+        display: none;
+    }
     
 }
 
@@ -138,5 +142,8 @@ footer {
 
     header{
         font-size: 3em;
+    }
+    video{
+        display: none;
     }
 }
