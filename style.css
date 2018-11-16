@@ -23,7 +23,7 @@ body > video {
 
 
 body {
-    background: url(assets/img/background.jpeg);
+    background: url(assets/img/background.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 960px;
@@ -32,13 +32,12 @@ body {
     margin: 0 auto;
 }
 header {
-    background: url(assets/img/companylogoBG.jpg);
+    background: url(assets/img/companylogoBG.png);
     background-position: 100% 100%;
     font-family: BerlinSans;
     align-content: center;
     background-size: cover;
-    color: #ffffff;
-    text-overflow: scale;
+    color: #ffffff;    
     font-size: 5em;
     padding: 40px    
 }

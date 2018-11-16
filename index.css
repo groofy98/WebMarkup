@@ -29,10 +29,10 @@ aside {
     aside {
         display: block;
     }
-    #two, #three {
+    #two, #three, #second, #third {
         display: none;
     }
-    #aside, #one.image {
+    #aside, #first.image {
         object-fit: cover;
         display: block;
         width: 49%;
